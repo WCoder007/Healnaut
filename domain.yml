@@ -6,28 +6,40 @@ intents:
   - affirm
   - deny
   - mood_great
-  - mood_unhappy
   - bot_challenge
+  - inform
+  - get_symptoms
+  - ask_symptoms
+
+entities:
+  - symptom
+  - side_effect
+  - disease 
+
+slots:
+  symptom:
+    type: unfeaturized
+  side_effect:
+    type: unfeaturized
+  disease:
+    type: unfeaturized      
+
 
 responses:
-  utter_greet:
+  utter_welcome:
   - text: "Hello! My name is Healnaut. A general health query bot. How can I be of assistance to you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
+     
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, powered by Keith, Nivi, Akshita, Sahil and Mohammed."
+
+  utter_check_symptoms:
+  - text: "Kindly provide your symptoms"
+
+  utter_greet:
+  - text: Hi there! What can I help you with today?
 
 session_config:
   session_expiration_time: 60

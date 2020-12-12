@@ -9,22 +9,19 @@ stories:
   - intent: mood_great
   - action: utter_happy
 
-- story: sad path 1
+- story: symptoms enquiry path
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+  - intent: inform
+  - action: utter_check_symptoms
+  - intent: get_symptoms
   - action: utter_goodbye
+
+- story: bot challenge path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot-challenge
+  - action: utter_iamabot
+

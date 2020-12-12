@@ -67,10 +67,18 @@ nlu:
     - so good
     - so perfect
 
-- intent: mood_unhappy
+
+- intent: bot_challenge
   examples: |
-    - my day was horrible
-    - I am sad
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: inform
+  examples: |
+    - I have a problem
+    - I feel sick
     - I don't feel very well
     - I am disappointed
     - super sad
@@ -84,9 +92,21 @@ nlu:
     - so saad
     - so sad
 
-- intent: bot_challenge
+- intent: get_symptoms
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - I have a headache.
+    - 
+    - 
+    - 
+- intent: ask_symptoms
+  examples: |
+    - what are the symptoms of cancer.
+    - what
+    - what
+    - what   
+
+- intent: ask_name
+  examples: |
+    - what is your name?.
+    -     
+
