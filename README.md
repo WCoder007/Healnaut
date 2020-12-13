@@ -8,7 +8,7 @@ Siemen's Healthineer's Challenge, Statement 3
 
 ## Solution
 
-As the pandemic started, the people always found themselves reluctant to go to hospitals for small problems but hence had lots of queries and worries in mind. So, here we are with Healnaut, a medical assistant chatbot to answer all your queries.
+As the pandemic started, the people always found themselves reluctant to go to hospitals for small problems but hence had lots of queries and worries in mind. So, here we are with Healnaut, a medical assistant chatbot to answer your queries.
 
 ## Technology Stack Used
 
@@ -29,11 +29,12 @@ As the pandemic started, the people always found themselves reluctant to go to h
   
 ## Model Training
 * Doc2vec word embedding model was used to vectorize our questions (Ref: Doc2Vec is a Google product released in 2018 and can be use in python or R)
-* To train the model. data was scrapped via beautifulsoup. 
+* To train the model, data was scrapped via beautifulsoup. 
 * Only the topic and body text was fetched
 * The data was then cleaned  with the help of python nltk kit.
-* Then trained the model on about 4 GB pure text.
+* The model was trained on about 4 GB pure text.
 * For choosing the model hyperparameters cosine similarity was chosen on the benchmark sentences and the best ones were picked.
+
 Note: The nobility of the model is training the model on the reliable healthcare resources.
   
 ## Challenges Faced
