@@ -50,23 +50,6 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
 
 - intent: bot_challenge
   examples: |
@@ -83,8 +66,8 @@ nlu:
     - I am disappointed
     - super sad
     - I'm so sad
-    - sad
-    - very sad
+    - sick
+    - unhealthy
     - unhappy
     - not good
     - not very good
@@ -100,10 +83,10 @@ nlu:
     - 
 - intent: ask_symptoms
   examples: |
-    - what are the symptoms of cancer.
-    - what
-    - what
-    - what   
+    - what are the symptoms of cancer?
+    - what are the symptoms of malaria?
+    - How do you feel when you have Corona?
+    - what are the symptoms of Covid-19?   
 
 - intent: ask_name
   examples: |
