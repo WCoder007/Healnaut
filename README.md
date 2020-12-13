@@ -2,7 +2,7 @@
 
 A Chatbot for Health related Queries
 
-![alt text](Preview.png)
+![alt text](InkedPreview_LI.jpg)
 
 ## Problem Statement
 
