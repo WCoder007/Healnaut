@@ -42,6 +42,9 @@ responses:
   utter_greet:
   - text: Hi there! What can I help you with today?
 
+  utter_symptoms:
+  - text: The symptoms of malaria are diarrhoea, muscle pains, vomiting and a high temperature 
+
   utter_stop:
   - text: stopping smoking is about will power and being steadfast. you can stop safely by having bupropion or nicotine patch cover initially in consult with a doctor. contact an addiction clinic near you. wishing you best of health thanks
 

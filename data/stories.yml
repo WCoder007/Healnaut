@@ -2,12 +2,6 @@ version: "2.0"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
 
 - story: symptoms enquiry path
   steps:
@@ -31,5 +25,13 @@ stories:
   - action: utter_greet
   - intent: smoking
   - action: utter_stop  
+
+- story: cancer path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_symptoms
+  - action: utter_symptoms 
+
 
 
