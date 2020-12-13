@@ -17,6 +17,10 @@ As the pandemic started, the people always found themselves reluctant to go to h
 * VS Code
 
 ## Methodology
-  1. 
-##
+  1. Using urllib.requests and Beautiful Soup (BS4), data was scraped from WebMD.com, icliniq, question doctors
+  2. A model was made using the scraped data using Doc2Vec Model
+  3. Model was intergrated to the chatbot using RASA FrameWork
+  
+## Challenges Faced
+
 
