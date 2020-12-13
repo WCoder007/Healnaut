@@ -33,5 +33,13 @@ stories:
   - intent: ask_symptoms
   - action: utter_symptoms 
 
+- story: typhoid path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: typhoid
+  - action: utter_typhoid
+
+
 
 

@@ -11,6 +11,7 @@ intents:
   - get_symptoms
   - ask_symptoms
   - smoking
+  - typhoid
 
 entities:
   - symptom
@@ -27,7 +28,7 @@ slots:
 
 
 responses:
-  utter_welcome:
+  utter_greet:
   - text: "Hello! My name is Healnaut. A general health query bot. How can I be of assistance to you?"
      
   utter_goodbye:
@@ -39,8 +40,8 @@ responses:
   utter_check_symptoms:
   - text: "Kindly provide your symptoms"
 
-  utter_greet:
-  - text: Hi there! What can I help you with today?
+  utter_typhoid:
+  - text: The symptoms of typhoid are Dry cough, loss of appetite, weakness and sweating
 
   utter_symptoms:
   - text: The symptoms of malaria are diarrhoea, muscle pains, vomiting and a high temperature 

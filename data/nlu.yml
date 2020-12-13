@@ -34,7 +34,7 @@ nlu:
 - intent: affirm
   examples: |
     - yes
-    - y
+    - yep
     - indeed
     - of course
     - that sounds good
@@ -106,6 +106,10 @@ nlu:
 - intent: smoking
   examples: |
     - how do i stop smoking now.
-    -           
+    -  
+
+- intent: typhoid
+  examples: |
+    - what are the symptoms of typhoid    
 
 
