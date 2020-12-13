@@ -31,7 +31,7 @@ responses:
   - text: "Hello! My name is Healnaut. A general health query bot. How can I be of assistance to you?"
      
   utter_goodbye:
-  - text: "Bye"
+  - text: "Goodbye, until next time"
 
   utter_iamabot:
   - text: "I am a bot, powered by Keith, Nivi, Akshita, Sahil and Mohammed."

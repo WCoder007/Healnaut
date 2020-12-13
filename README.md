@@ -1,6 +1,8 @@
 # Healnaut
 A Chatbot for Health related Queries
 
+![alt text](Preview.png)
+
 ## Problem Statement
 Siemen's Healthineer's Challenge, Statement 3
 
