@@ -1,12 +1,8 @@
 [
   {
-    "answer": "stopping smoking is about will power and being steadfast. you can stop safely by having bupropion or nicotine patch cover initially in consult with a doctor. contact an addiction clinic near you. wishing you best of health thanks",
-    "question": "how do i stop smoking now",
-    "url": "http://ehealthforum.com/health/stop-smoking-question-t462882.html",
-    "tags": [
-      "addiction",
-      "stop smoking"
-    ]
+    "utter_stop": "stopping smoking is about will power and being steadfast. you can stop safely by having bupropion or nicotine patch cover initially in consult with a doctor. contact an addiction clinic near you. wishing you best of health thanks",
+    "intent : smoking": "how do i stop smoking now"
+    
   },
   {
     "answer": "hello this sounds quite unfamiliar that due to no reason at this age you have no cycle for last three months. pregnancy is surely a remote possibility as there was a tubal ligation. the endometriosis is also unlikely could cause stoppage of cycle. you definitely need some hormonal tests like thyroid or prolactin to know the balance inside as well as an withdrawal bleeding. meet your doctor for an evaluation.",

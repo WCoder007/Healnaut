@@ -25,3 +25,11 @@ stories:
   - intent: bot-challenge
   - action: utter_iamabot
 
+- story: smoking path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: smoking
+  - action: utter_stop  
+
+

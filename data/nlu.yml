@@ -93,3 +93,19 @@ nlu:
     - what is your name?.
     -     
 
+- intent: ask_name
+  examples: |
+    - what is your name?.
+    -     
+
+- intent: disorder
+  examples: |
+    - r
+    -
+
+- intent: smoking
+  examples: |
+    - how do i stop smoking now.
+    -           
+
+

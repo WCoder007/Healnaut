@@ -10,6 +10,7 @@ intents:
   - inform
   - get_symptoms
   - ask_symptoms
+  - smoking
 
 entities:
   - symptom
@@ -40,6 +41,9 @@ responses:
 
   utter_greet:
   - text: Hi there! What can I help you with today?
+
+  utter_stop:
+  - text: stopping smoking is about will power and being steadfast. you can stop safely by having bupropion or nicotine patch cover initially in consult with a doctor. contact an addiction clinic near you. wishing you best of health thanks
 
 session_config:
   session_expiration_time: 60
