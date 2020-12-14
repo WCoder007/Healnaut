@@ -45,8 +45,7 @@ Note: The nobility of the model is training the model on the reliable healthcare
 * Doc2Vec Training was a challenge on its own
 * We were new to RASA Framework and had to learn pretty much from scratch
 
-## Video
-[How it works!](https://youtu.be/-DAYMlyWKEw)
+[//] : <> (https://youtu.be/-DAYMlyWKEw)
 
 ## Contributors
 * [Keith Kadima](https://github.com/kadimakeith)
